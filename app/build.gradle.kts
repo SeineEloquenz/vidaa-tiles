@@ -21,6 +21,14 @@ android {
         includeInBundle = false
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file(System.getProperty("user.home") + "/work/_temp/keystore.jks")
+            storePassword = System.getenv("KEYSTORE_PASSWORD")
+            keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+            keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+        }
+    }
     namespace = "nz.eloque.vidaa_tiles"
     compileSdk = 37
     buildToolsVersion = "37.0.0"
@@ -38,6 +46,15 @@ android {
     }
 
     buildTypes {
+        release {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro",
+            )
+            signingConfig = signingConfigs["release"]
+        }
         debug {
             applicationIdSuffix = ".dev"
         }

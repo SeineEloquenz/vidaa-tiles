@@ -1,0 +1,1 @@
+Add web apps like Jellyfin as tiles to Hisense VIDAA TVs

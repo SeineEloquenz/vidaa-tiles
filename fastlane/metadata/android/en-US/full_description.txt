@@ -1,0 +1,12 @@
+VIDAA Tiles adds web apps as launcher tiles to Hisense and other VIDAA OS TVs.
+
+It pairs with the TV over your local network using the PIN shown on screen, the same way the official remote app does. No developer mode, DNS changes or computer are needed.
+
+* Find VIDAA TVs on your network or enter the IP address
+* One tap tiles for Jellyfin, Stremio and Nuvio
+* Custom tiles for any web address
+* List the tiles on the TV and open them remotely
+
+Tiles are bookmarks to hosted web apps and stay on the TV after the app is closed.
+
+Based on the protocol work of the Sidee project.
