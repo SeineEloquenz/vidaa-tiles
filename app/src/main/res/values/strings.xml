@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VIDAA Tiles</string>
+    <string name="tv">TV</string>
+    <string name="search">Search network</string>
+    <string name="searching">Searching…</string>
+    <string name="tv_ip">TV IP address</string>
+    <string name="pair">Pair</string>
+    <string name="paired_with">Paired with %1$s</string>
+    <string name="forget">Forget TV</string>
+    <string name="connecting">Connecting to %1$s…</string>
+    <string name="server">Server address</string>
+    <string name="server_optional">Streaming server URL (optional)</string>
+    <string name="install">Add to TV</string>
+    <string name="custom_tile">Custom tile</string>
+    <string name="name">Name</string>
+    <string name="url">Web address</string>
+    <string name="image_url">Icon URL, https only (optional)</string>
+    <string name="installed_tiles">Tiles on the TV</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_tiles">No tiles loaded</string>
+    <string name="launch">Open on TV</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin_hint">Enter the PIN shown on %1$s.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>
